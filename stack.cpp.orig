@@ -14,7 +14,7 @@ struct node {
 		
 	public:
 //< HEAD
-
+	void push(){}
 	void pop(){ if(top==NULL)
     {
         cout<<"stack is empty"<<endl;
@@ -42,10 +42,11 @@ struct node {
     temp->next=top;
     top=temp;
     }}
-//<<<<<<< HEAD
+	void pop(){}
+<<<<<<< HEAD
 //>>>>>>> pushFun
-
-//=======
+	void display(){}
+=======
 	void display(){ temp1=top;
     if(temp1 == NULL)
     {
@@ -58,7 +59,7 @@ struct node {
         cout<<temp1->data<<endl;
         temp1=temp1->next;
     }}
-//>>>>>>> displayFun
+>>>>>>> displayFun
 }
 
 void main(){}
