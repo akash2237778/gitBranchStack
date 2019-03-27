@@ -13,6 +13,7 @@ struct node {
     struct node* temp1 = NULL;
 		
 	public:
+//< HEAD
 	void push(){}
 	void pop(){ if(top==NULL)
     {
@@ -26,6 +27,23 @@ struct node {
         delete(top);
         top=temp1;}
 
+//=======
+	void push(int d){
+		if(top==NULL)
+    {
+     top = new node;
+     top->next=NULL;
+     top->data=d;
+    }
+    else
+    {
+    temp=new node;
+    temp->data=d;
+    temp->next=top;
+    top=temp;
+    }}
+	void pop(){}
+//>>>>>>> pushFun
 	void display(){}
 }
 
