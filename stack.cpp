@@ -1,4 +1,4 @@
-#include<iostream>  //included iostream
+#include<iostream>  //included iostream//edited
 using namespace std;
 class stack{
 	private:
