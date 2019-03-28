@@ -61,4 +61,8 @@ struct node {
 //>>>>>>> displayFun
 }
 
-void main(){}
+void main(){
+
+//comment inserted to use protected branches
+
+}
